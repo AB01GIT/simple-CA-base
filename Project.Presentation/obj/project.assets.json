@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Project.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Project.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Core.dll": {}
+        }
+      },
+      "Project.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Project.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project.Core/1.0.0": {
+      "type": "project",
+      "path": "../Project.Core/Project.Core.csproj",
+      "msbuildProject": "../Project.Core/Project.Core.csproj"
+    },
+    "Project.Data/1.0.0": {
+      "type": "project",
+      "path": "../Project.Data/Project.Data.csproj",
+      "msbuildProject": "../Project.Data/Project.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Project.Core >= 1.0.0",
+      "Project.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AB01\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Presentation\\Project.Presentation.csproj",
+      "projectName": "Project.Presentation",
+      "projectPath": "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Presentation\\Project.Presentation.csproj",
+      "packagesPath": "C:\\Users\\AB01\\.nuget\\packages\\",
+      "outputPath": "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Presentation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AB01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Core\\Project.Core.csproj": {
+              "projectPath": "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Core\\Project.Core.csproj"
+            },
+            "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Data\\Project.Data.csproj": {
+              "projectPath": "G:\\C #\\BuckUp\\4. Shatin-Shop\\Project.Presentation\\Project.Data\\Project.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
